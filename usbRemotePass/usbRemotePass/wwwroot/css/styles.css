@@ -1,0 +1,21 @@
+
+.hidden {
+    display: none;
+  }
+  /* styles.css */
+
+.password-table {
+    border-collapse: collapse;
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table */
+}
+
+.password-table th, .password-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
