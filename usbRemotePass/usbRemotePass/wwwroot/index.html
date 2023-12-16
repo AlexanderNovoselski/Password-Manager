@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="/js/script.js" type="module"></script>
+    <script src="./js/script.js" type="module"></script>
     <title>Password Manager</title>
 </head>
+
 <body>
     <div id="loginForm">
         <h2>Login</h2>
-        <input type="password" id="key" placeholder="Enter Password">
-        <input type="password" id="iv" placeholder="Enter Password">
+        <div class="password-input">
+            <input type="password" id="key" placeholder="Enter Key">
+            <div id="keyError" class="err error-container">Please enter a Key</div>
+        </div>
+        <div class="password-input">
+            <input type="password" id="iv" placeholder="Enter IV">
+            <div id="ivError" class="err error-container">Please enter an IV</div>
+        </div>
         <button id="enterBtn">Enter</button>
     </div>
 
+    <style>
+        .err {
+            color: red;
+            display: none;
+        }
+
+        .error-container {
+            margin-top: 5px;
+            margin-bottom: 3px;
+        }
+
+        .password-input {
+            margin-bottom: 3px;
+        }
+    </style>
 </body>
+
 </html>

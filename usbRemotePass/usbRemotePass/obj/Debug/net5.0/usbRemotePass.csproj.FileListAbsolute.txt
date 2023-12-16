@@ -1,0 +1,8 @@
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.AssemblyInfo.cs
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass\obj\Debug\net5.0\usbRemotePass.sourcelink.json

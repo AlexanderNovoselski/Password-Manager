@@ -19,3 +19,26 @@
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+.err {
+    color: red;
+    display: none;
+}
+
+.error-container {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.password-input {
+    margin-bottom: 3px;
+}
+
+.glow {
+    animation: glow 1s ease-in-out;
+}
+@keyframes glow {
+    0% {
+        background-color: lightcyan; /* Change to the initial background color of the cell */
+    }
+}

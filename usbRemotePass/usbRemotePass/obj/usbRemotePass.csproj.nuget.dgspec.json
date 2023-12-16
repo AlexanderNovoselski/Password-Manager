@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EVLVSDEV2\\Desktop\\project\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj": {}
+    "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EVLVSDEV2\\Desktop\\project\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj": {
+    "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EVLVSDEV2\\Desktop\\project\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
         "projectName": "usbRemotePass",
-        "projectPath": "C:\\Users\\EVLVSDEV2\\Desktop\\project\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
-        "packagesPath": "C:\\Users\\EVLVSDEV2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EVLVSDEV2\\Desktop\\project\\usbRemotePass\\usbRemotePass\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EVLVSDEV2\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

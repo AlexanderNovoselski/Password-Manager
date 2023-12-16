@@ -1,13 +1,8 @@
-﻿
-
-// string hardcodedKey = "4qYnaHLMCL/3btlRrdT6z8/XW8zwtYYaf5P7B6Hcdz0=";
-// string hardcodedIV = "8q3l5CFrFnQ9CrOlvBChCz==";
+﻿// 4qYnaHLMCL/3btlRrdT6z8/XW8zwtYYaf5P7B6Hcdz0=
+// 8q3l5CFrFnQ9CrOlvBChCz==
 
 
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic; // Add this for List<>
-using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
@@ -18,8 +13,8 @@ namespace usbRemotePass.Controllers
     [Route("api/[controller]")]
     public class PasswordController : Controller
     {
-        private string Key = "4qYnaHLMCL/3btlRrdT6z8/XW8zwtYYaf5P7B6Hcdy0="; // Change this to your actual key
-        private string IV = "8q3l5CFrFnQ9CrOlvBChCQ=="; // Change this to your actual IV
+        private string Key = ""; // Change this to your actual key
+        private string IV = ""; // Change this to your actual IV
 
         [HttpPost]
         [Route("save_password")]
@@ -161,15 +156,15 @@ namespace usbRemotePass.Controllers
                     using (StreamReader srDecrypt = new StreamReader(csDecrypt))
                     {
                         string decryptedText = srDecrypt.ReadToEnd();
-                        Console.WriteLine($"Decrypted Text: {decryptedText}"); // Add this line for debugging
+                        Console.WriteLine($"Decrypted Text: {decryptedText}");
                         return decryptedText;
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Decryption Error: {ex}"); // Add this line for debugging
-                throw; // Rethrow the exception to see details in the console
+                Console.WriteLine($"Decryption Error: {ex}");
+                throw;
             }
         }
     }
