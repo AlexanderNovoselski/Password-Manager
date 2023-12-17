@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A8nmiOCanDHneUsi4qM6/hsjvOLmOjVHVlfu2amyXP4=",
+  "Hash": "R4a3Qf/tcV2xDF4Vb6MltPUI8JgcnWw31A7P/z3F9Pw=",
   "Source": "usbRemotePass",
   "BasePath": "_content/usbRemotePass",
   "Mode": "Default",
@@ -36,25 +36,6 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\css\\styles.css",
-      "SourceId": "usbRemotePass",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\",
-      "BasePath": "_content/usbRemotePass",
-      "RelativePath": "css/styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
-    },
-    {
       "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\favicon.ico",
       "SourceId": "usbRemotePass",
       "SourceType": "Discovered",
@@ -72,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\hack.gif",
+      "SourceId": "usbRemotePass",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\",
+      "BasePath": "_content/usbRemotePass",
+      "RelativePath": "hack.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\hack.gif"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\index.html",
@@ -1269,6 +1269,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\package.json"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\stars.gif",
+      "SourceId": "usbRemotePass",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\",
+      "BasePath": "_content/usbRemotePass",
+      "RelativePath": "stars.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\stars.gif"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\styles.css",
+      "SourceId": "usbRemotePass",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\",
+      "BasePath": "_content/usbRemotePass",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ]
 }

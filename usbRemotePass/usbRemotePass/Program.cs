@@ -1,14 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.WithOrigins("http://127.0.0.1:5500")
-               .AllowAnyHeader()
-               .AllowAnyMethod();
-    });
-});
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthorization();
@@ -25,8 +16,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseCors(); // Apply CORS before UseRouting and after UseStaticFiles
 
 app.UseAuthorization();
 

@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
-    },
-    {
       "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\hack.gif",
+      "PackagePath": "staticwebassets\\hack.gif"
     },
     {
       "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\index.html",
@@ -263,6 +263,14 @@
     {
       "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\package.json",
       "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\stars.gif",
+      "PackagePath": "staticwebassets\\stars.gif"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.usbRemotePass.props",
