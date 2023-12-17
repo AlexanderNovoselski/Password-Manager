@@ -6,7 +6,7 @@ SecurePass is a self-hosted password manager designed to provide secure and conv
 - **Encryption**: Encrypt and decrypt passwords using a specified key and initialization vector (IV).
 - **Remote Access**: Store the app on a remote USB for convenient access to your passwords from any device.
 - **Add and Save Passwords**: Easily add and save passwords with confidence in their encryption.
-- **Add and Save Passwords**: For more protection you can easily BitLock your remote USB with a passwords, as well as limit the passwords.txt file deletion.
+- **USB Encryption**: For more protection you can easily BitLock your remote USB with a passwords, as well as limit the passwords.txt file deletion.
 
 ## Screenshots
 
