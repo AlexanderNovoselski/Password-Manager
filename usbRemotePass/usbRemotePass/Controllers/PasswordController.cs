@@ -19,7 +19,6 @@ namespace usbRemotePass.Controllers
         [Route("save_password")]
         public IActionResult SavePassword([FromBody] JsonElement data)
         {
-
             try
             {
                 if (!data.TryGetProperty("web", out var web) ||
