@@ -35,3 +35,9 @@ SecurePass is a self-hosted password manager designed to provide secure and conv
 2. Open the start_servers.bat file and Change to your project directory 
 3. Run the .bat file, this will automatically download needed dependencies: { .NET SDK, Node.js}
 4. The app will automatically start once everything has been downloaded and installed, on a url http://localhost:5000/index.html
+
+## Contact and Feedback
+
+For any bugs, issues, or feature requests, please feel free to contact me via email:
+
+- Email: [alexandernovoselski@yahoo.com](mailto:alexandernovoselski@yahoo.com)
