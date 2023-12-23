@@ -113,6 +113,7 @@ function addPassword(e) {
 
 }
 
+// Function to fetch data and update the table
 async function fetchDataAndUpdateTable(table, enteredKey, enteredIV) {
     try {
         const response = await fetch('http://localhost:5000/api/password/get_passwords', {
