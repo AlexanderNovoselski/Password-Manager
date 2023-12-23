@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
       "projectName": "usbRemotePass",
-      "projectPath": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\usbRemotePass.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\passwordManager\\usbRemotePass\\usbRemotePass\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

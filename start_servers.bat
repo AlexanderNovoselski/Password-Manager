@@ -30,7 +30,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Change to your project directory
-cd C:\Users\USER\Desktop\passwordManager\usbRemotePass\usbRemotePass
+cd C:\Users\USER\Desktop\Password-Manager\usbRemotePass\usbRemotePass
 
 REM Run the ASP.NET Core project
 echo Starting ASP.NET Core server...
