@@ -10,14 +10,10 @@ namespace usbRemotePass.Controllers
     public class PasswordController : Controller
     {
         private readonly IPasswordService _passwordService;
-        private readonly ISecurityService _securityService;
-        private readonly IFileService _fileService; // Add this
 
         public PasswordController(IPasswordService passwordService, ISecurityService securityService, IFileService fileService) // Add IFileService to constructor
         {
             _passwordService = passwordService ?? throw new ArgumentNullException(nameof(passwordService));
-            _securityService = securityService ?? throw new ArgumentNullException(nameof(securityService));
-            _fileService = fileService ?? throw new ArgumentNullException(nameof(fileService)); // Initialize IFileService
         }
 
         [HttpPost]

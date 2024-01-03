@@ -81,14 +81,30 @@ function addPassword(e) {
     let key = document.getElementById("newKeyInput").value;
     let iv = document.getElementById("newIvInput").value;
 
-    let data = {
-        web: web,
-        name: name,
-        user: user,
-        password: password,
-        key: key,
-        iv: iv
-    };
+    let data;
+    if(key && iv)
+    {
+        data = {
+            web: web,
+            name: name,
+            user: user,
+            password: password,
+            key: key,
+            iv: iv
+        };
+    }
+    else
+    {
+        data = {
+            web: web,
+            name: name,
+            user: user,
+            password: password,
+            key: sessionStorage.getItem('key'),
+            iv: sessionStorage.getItem('iv')
+        };
+    }
+
 
     fetch('http://localhost:5000/api/Password/save_password', {
         method: 'POST',
@@ -103,7 +119,6 @@ function addPassword(e) {
             }
         })
         .then(data => {
-            console.log('Password saved:', data);
             _body.innerHTML = '';
             showPasswordsTable();
         })
