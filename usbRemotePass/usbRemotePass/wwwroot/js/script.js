@@ -73,7 +73,6 @@ function getPasswordCreaterForm(e) {
     let backBtn = document.getElementById('backBtn');
     saveBtn.addEventListener('click', (e) => addPassword(e))
     backBtn.addEventListener('click', () => showPasswordsTable())
-    console.log(backButton);
 }
 
 function addPassword(e) {
