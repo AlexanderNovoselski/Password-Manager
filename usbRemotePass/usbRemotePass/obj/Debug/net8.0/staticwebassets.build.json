@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HPARmicKdGhMkglZZrGdt1H9H/6g4SmBSQ8gDcg9SIg=",
+  "Hash": "WfS1+ICLu37vTaG0a+VOYQlwn59kgxx9qJbaFENeWRg=",
   "Source": "usbRemotePass",
   "BasePath": "_content/usbRemotePass",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\wwwroot\\js\\app.js",
-      "SourceId": "usbRemotePass",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\wwwroot\\",
-      "BasePath": "_content/usbRemotePass",
-      "RelativePath": "js/app.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\Password-Manager\\usbRemotePass\\usbRemotePass\\wwwroot\\js\\domUtils.js",

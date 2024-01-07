@@ -32,6 +32,7 @@ function authenticate() {
 }
 
 function showPasswordsTable() {
+    _body.innerHTML = '';
     const tableElement = createPasswordManagerDOM(_body);
 
     tableElement.addEventListener('click', (event) => copyToClickboard(event));
@@ -69,7 +70,10 @@ function getPasswordCreaterForm(e) {
     _body.innerHTML = '';
     createPasswordForm(_body);
     let saveBtn = document.getElementById('saveBtn');
+    let backBtn = document.getElementById('backBtn');
     saveBtn.addEventListener('click', (e) => addPassword(e))
+    backBtn.addEventListener('click', () => showPasswordsTable())
+    console.log(backButton);
 }
 
 function addPassword(e) {
@@ -104,7 +108,6 @@ function addPassword(e) {
             iv: sessionStorage.getItem('iv')
         };
     }
-
 
     fetch('http://localhost:5000/api/Password/save_password', {
         method: 'POST',

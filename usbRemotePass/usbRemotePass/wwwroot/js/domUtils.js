@@ -104,7 +104,11 @@ export function createPasswordForm(bodyElement) {
     const saveButton = document.createElement('button');
     saveButton.id = 'saveBtn';
     saveButton.textContent = 'Save';
-  
+
+    const backButton = document.createElement('button');
+    backButton.id = 'backBtn';
+    backButton.textContent = 'Back';
+    
     passwordFormDiv.appendChild(titleLabel);
     passwordFormDiv.appendChild(titleInput);
     passwordFormDiv.appendChild(document.createElement('br'));
@@ -124,6 +128,7 @@ export function createPasswordForm(bodyElement) {
     passwordFormDiv.appendChild(ivInput);
     passwordFormDiv.appendChild(document.createElement('br'));
     passwordFormDiv.appendChild(saveButton);
+    passwordFormDiv.appendChild(backButton);    
   
     bodyElement.appendChild(passwordFormDiv);
   }
